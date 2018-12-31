@@ -12,7 +12,7 @@ if(!config.enable) {
 var globalConfig = require('./config.json');
 
 // parse server s3 adapter
-var S3Adapter = require('parse-server-s3-adapter');
+var S3Adapter = require('@parse/s3-files-adapter');
 
 // parse server
 var ParseServer = require('parse-server').ParseServer;

@@ -1,10 +1,9 @@
 {
   "portFrom":1337,
   "maxInstances":100,
-
-  "parseDashboardURI":"https://app.xxx.com:4040",
+  "parseDashboardURI":"https://app.xxx.com:4050",
   "globalURI":"https://app.xxx.com",
-  "databaseURI":"mongodb://localhost:27017/",
+  "databaseURI":"mongodb://localhost:27017/parse",
   "useCollectionPrefix":true,
   "cloudCodeFolder":"./cloudcode/",
   "internalProxyPort":3000,
@@ -14,6 +13,6 @@
     "secretKey":"xxxx"
   },
   "parseDashboard":{
-    "port":4040
+    "port":4050
   }
 }
